@@ -1,0 +1,28 @@
+{
+  "paper": "Scalable and Interpretable Representation Alignment with Ordinal Similarity (G4D0YzzZEk)",
+  "official_commit": "79758ece4b97eeda98439542bbeb7c229f2bc2c9",
+  "claim_1_ordinal_indices": {
+    "instances": 40,
+    "max_fast_vs_brute_tsi_error": 0.0,
+    "all_similarity_transform_tsi_one": true,
+    "all_similarity_transform_qsi_one": true,
+    "verified": true
+  },
+  "claim_2_tsi_mnn_equivalence": {
+    "no_tie_cases": 960,
+    "equivalence_matches": 960,
+    "verified": true
+  },
+  "approximate_n10000_d512": {
+    "aligned_tsi": 0.99995,
+    "aligned_qsi": 1.0,
+    "permuted_tsi": 0.5061,
+    "permuted_qsi": 0.49995,
+    "runtime_s": 0.6803762700874358,
+    "n": 10000,
+    "d": 512,
+    "samples_per_metric": 20000
+  },
+  "negative_control_ties_rejected": true,
+  "all_claims_verified": true
+}
