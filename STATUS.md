@@ -1,6 +1,7 @@
 # STATUS — Ordinal Similarity Indices (`G4D0YzzZEk`)
 
-**State:** official 3/4; Claim-2 paper-scale repair frozen at exactly 10 routes.
+**State:** official 3/4; exactly-10 Claim-2 repair executed and independently
+verified, awaiting exact-SHA official re-judgment.
 
 ## Source audit
 
@@ -10,10 +11,13 @@
 - Claims: ordinal TSI/QSI definitions and the no-ties equivalence between
   perfect TSI alignment and joint MutualNN agreement across all scales.
 
-## Current step
+## Repair result
 
-The old five-point exhaustive audit is officially `toy`. Execute exactly ten
-frozen Claim-2 routes spanning the authors' 10,000×512 CIFAR-10 ViT artifacts,
-three additional real datasets, a combinatorial proof checker, fixed-k trap,
-and tie boundary. Do not add route 11. Then independently verify, publish, and
-require an exact-SHA official 4/4 verdict.
+The old five-point exhaustive audit was officially `toy`. Exactly ten frozen
+routes now pass: 362,880/362,880 strict-order cases, exact audits of the
+authors' CIFAR representations at n=2,048,d=512, three real datasets, a 2%
+outlier control, fixed-k trap, and tie boundary. Route 11 is programmatically
+rejected. The separate verifier passes without importing the audit module.
+
+Next: publish, perform anonymous public readback, and require an exact-SHA
+official 4/4 verdict before declaring this paper complete.

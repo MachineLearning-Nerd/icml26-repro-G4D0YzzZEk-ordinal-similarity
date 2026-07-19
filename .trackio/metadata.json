@@ -1,5 +1,5 @@
 {
-  "space_id": null,
+  "space_id": "DineshAI/G4D0YzzZEk",
   "emoji": "📐",
   "created_at": "2026-07-17T06:40:15+00:00",
   "paper": {
@@ -10,7 +10,7 @@
     "icml2026-repro",
     "paper-G4D0YzzZEk"
   ],
-  "autosync": false,
+  "autosync": true,
   "private": false,
   "title": "Repro - Ordinal Similarity Indices",
   "last_page": "conclusion",

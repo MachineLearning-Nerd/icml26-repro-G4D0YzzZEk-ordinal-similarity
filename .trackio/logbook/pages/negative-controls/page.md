@@ -5,9 +5,15 @@
 <!-- trackio-cell
 {"type": "markdown", "id": "cell_b04465fa37fe", "created_at": "2026-07-17T06:40:21+00:00", "title": "Preconditions and false-positive controls"}
 -->
-1. A random row permutation preserves the marginal data but destroys correspondence; sampled TSI and QSI collapse to about 0.5.
-2. A tied-distance point cloud is rejected before applying Corollary 1 because nearest-neighbor sets are not unique.
-3. The official code's own complete sanity suite is run alongside the independent tests, so a mismatch cannot be hidden by a single implementation.
+1. The authors' initial-versus-final CIFAR features give imperfect TSI and
+   imperfect all-scale MutualNN, testing the reverse direction on real primary
+   data.
+2. A 2% CIFAR outlier injection stays imperfect/imperfect.
+3. A cluster translation keeps fixed-k MutualNN equal to one at k=399 while
+   TSI and all-scale MutualNN are both imperfect, exposing the fixed-k trap.
+4. A tied grid is rejected before Corollary 1; deterministic no-tie jitter plus
+   a point perturbation then gives imperfect/imperfect.
+5. An independent verifier does not import the main exact-audit module.
 
 
 ---

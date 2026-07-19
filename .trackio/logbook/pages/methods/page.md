@@ -9,6 +9,24 @@ Official source: https://github.com/diogosoares22/ordinal-similarity-metrics at 
 
 The independent audit does not call the released metric classes. It computes pairwise distances, literal ordered-triplet and quadruplet predicates, rank agreement, and all-scale MutualNN sets directly with NumPy.
 
+## Claim 2 paper-scale repair
+
+`claim2_exact.py` computes float64 squared distances, verifies strict no-tie
+orders, counts exact discordant distance pairs, and independently compares
+neighbor-set prefixes for every k=1,...,N−2. The run is fail-closed unless its
+route sequence is exactly 1,...,10; an attempted route 11 raises an error.
+
+`verify_claim2_evidence.py` deliberately does not import that module. It
+recomputes the 9! combinatorial kernel, directly checks representative anchors
+in both pinned CIFAR arrays, verifies all saved integer TSI arithmetic and
+positive/negative directions, and records SHA-256 hashes.
+
+Evidence files:
+
+- `outputs/claim2_exactly10/summary.json`
+- `outputs/claim2_exactly10/routes.csv`
+- `outputs/claim2_exactly10/verification.json`
+
 
 ---
 <!-- trackio-cell

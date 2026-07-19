@@ -1,11 +1,17 @@
 {
   "schema_version": 1,
   "title": "Repro - Ordinal Similarity Indices",
-  "emoji": "🎯",
-  "space_id": null,
-  "paper": null,
-  "tags": [],
-  "updated_at": "2026-07-17T06:40:51+00:00",
+  "emoji": "📐",
+  "space_id": "DineshAI/G4D0YzzZEk",
+  "paper": {
+    "arxiv_id": "2606.16379",
+    "openreview_id": "G4D0YzzZEk"
+  },
+  "tags": [
+    "icml2026-repro",
+    "paper-G4D0YzzZEk"
+  ],
+  "updated_at": "2026-07-18T12:43:13+00:00",
   "root": {
     "slug": "index",
     "title": "Repro - Ordinal Similarity Indices",
@@ -43,6 +49,6 @@
       }
     ]
   },
-  "agent_view_tokens": 1556,
-  "revision": "1784270451604166669"
+  "agent_view_tokens": 1706,
+  "revision": "1784378593924679040"
 }

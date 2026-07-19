@@ -1,0 +1,11 @@
+route,name,n,d,tsi,tsi_perfect,mnn_all_scales_perfect,equivalence_holds,verified,runtime_seconds
+1,exhaustive_strict_order_proof_checker,,,,,,,True,
+2,official_cifar_final_isometry,2048,512,1.0,True,True,True,True,4.951815023086965
+3,official_cifar_initial_vs_final,2048,512,0.5876769356010912,False,False,True,True,9.799534725025296
+4,official_cifar_final_two_percent_outliers,2048,512,0.9717213325021812,False,False,True,True,8.909407576080412
+5,sklearn_digits_isometry,1797,64,1.0,True,True,True,True,3.3364856960251927
+6,sklearn_digits_anisotropic_deformation,1797,64,0.8612214330688901,False,False,True,True,7.09725509211421
+7,wisconsin_breast_cancer_nonlinear_warp,569,30,0.9360850166851966,False,False,True,True,0.6422290939372033
+8,sklearn_wine_isometry,178,13,1.0,True,True,True,True,0.032060103956609964
+9,clustered_global_translation_fixed_k_trap,1200,64,0.9620169701796573,False,False,True,True,3.253278283867985
+10,tied_grid_boundary_then_no_tie_perturbation,512,2,0.9999584808238364,False,False,True,True,0.4119566429872066

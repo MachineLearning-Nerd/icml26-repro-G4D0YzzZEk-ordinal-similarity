@@ -1,0 +1,61 @@
+{
+  "verifier": "independent standard-library/NumPy verifier; does not import claim2_exact",
+  "checks": [
+    {
+      "name": "exactly_ten_contract",
+      "passed": true
+    },
+    {
+      "name": "every_route_retained_and_verified",
+      "passed": true
+    },
+    {
+      "name": "both_theorem_directions_and_controls",
+      "passed": true
+    },
+    {
+      "name": "tsi_integer_arithmetic",
+      "passed": true
+    },
+    {
+      "name": "fixed_k_trap_and_tie_boundary",
+      "passed": true
+    },
+    {
+      "name": "independent_exhaustive_kernel",
+      "passed": true
+    },
+    {
+      "name": "independent_primary_data_orders",
+      "passed": true
+    }
+  ],
+  "independent_exhaustive_kernel": {
+    "permutations": 362880,
+    "equivalence_mismatches": 0,
+    "verified": true
+  },
+  "independent_primary_data_orders": {
+    "anchors": [
+      0,
+      1,
+      17,
+      255,
+      1023,
+      2047
+    ],
+    "isometry_orders_equal": true,
+    "initial_final_order_mismatches": 6,
+    "exact_ties_seen": 0,
+    "verified": true
+  },
+  "artifact_sha256": {
+    "summary.json": "c0e0c37e342d3496ceb07f3ae707646ddfba50f98cec2d7785c4989787981ef5",
+    "routes.csv": "3fae52e455bc55ecb8fd188a51d08c64e6cd7d39510492ce3bc883d938101cb5",
+    "claim2_exact.py": "8de339238f4dcdece50017a2528d974424fb743d59c1f7a047602b9a860389ec",
+    "run_claim2_exactly10.py": "078a73a42879e357d7bff678e12732044b944f29caebfbb1b352b76953781248",
+    "cifar_final.npy": "3ee442b20bab44e4aae5a038b6489df988f4db68fc6dd1e95d630ca278a10b1b",
+    "cifar_initial.npy": "e54ebc5faed57dc5e3895b32baf183310038a567a25bd9adc724a636b5603061"
+  },
+  "verified": true
+}

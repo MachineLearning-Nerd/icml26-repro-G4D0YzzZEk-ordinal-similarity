@@ -7,14 +7,17 @@
 -->
 ## Result
 
-Both claim-level results are reproduced. The literal ordinal definitions and an independent rank formulation agree exactly; perfect TSI is equivalent to all-scale MutualNN agreement in 960 no-tie cases. The public approximate path also separates aligned from permuted representations at n=10,000,d=512.
+Both claim-level results are reproduced. The Claim 2 paper-scale repair uses
+exactly 10 approaches and no more: 362,880 exhaustive strict orders, authors'
+CIFAR features, three real datasets, and adversarial boundary controls. All
+routes pass and a separate fail-closed verifier passes.
 
 ## Scope & cost
 
 | | This reproduction | Full replication |
 |---|---|---|
-| Scope | Definitions, Corollary 1, official sanity suite, n=10,000 sampled path | All CIFAR-10 and CLIP training studies |
+| Scope | Definitions, Corollary 1, exact n=2,048 CIFAR audits, official sanity suite | All CIFAR-10 and CLIP training studies |
 | Hardware | CPU, 4 vCPU | GPU training and feature extraction |
-| Time | under one minute | multi-epoch model-training campaigns |
+| Time | about one minute | multi-epoch model-training campaigns |
 | Cost | local CPU | GPU compute |
 | Outcome | Both scored algorithmic/theorem claims verified | Training-table measurements not claimed |
