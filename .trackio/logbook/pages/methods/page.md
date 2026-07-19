@@ -23,9 +23,10 @@ positive/negative directions, and records SHA-256 hashes.
 
 Evidence files:
 
-- `outputs/claim2_exactly10/summary.json`
-- `outputs/claim2_exactly10/routes.csv`
-- `outputs/claim2_exactly10/verification.json`
+- `evidence/summary.json`
+- `evidence/routes.csv`
+- `evidence/verification.json`
+- `evidence/claim2_exact.py` and the independent verifier source
 
 
 ---

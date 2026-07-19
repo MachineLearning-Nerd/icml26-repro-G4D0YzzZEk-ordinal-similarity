@@ -11,7 +11,7 @@
     "icml2026-repro",
     "paper-G4D0YzzZEk"
   ],
-  "updated_at": "2026-07-18T12:43:13+00:00",
+  "updated_at": "2026-07-19T00:58:28+00:00",
   "root": {
     "slug": "index",
     "title": "Repro - Ordinal Similarity Indices",
@@ -49,6 +49,6 @@
       }
     ]
   },
-  "agent_view_tokens": 1706,
-  "revision": "1784378593924679040"
+  "agent_view_tokens": 2220,
+  "revision": "1784422708781145763"
 }
