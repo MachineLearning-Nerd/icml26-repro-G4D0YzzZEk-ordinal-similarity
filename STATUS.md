@@ -1,6 +1,6 @@
 # STATUS — Ordinal Similarity Indices (`G4D0YzzZEk`)
 
-**State:** in progress.
+**State:** official 3/4; Claim-2 paper-scale repair frozen at exactly 10 routes.
 
 ## Source audit
 
@@ -12,6 +12,8 @@
 
 ## Current step
 
-Independent enumerator, MNN equivalence audit, tie control, and n=10,000,
-d=512 sampled path are scaffolded. Next: run the complete suite, cross-check
-against the official sanity tests, then prepare Trackio and the public repo.
+The old five-point exhaustive audit is officially `toy`. Execute exactly ten
+frozen Claim-2 routes spanning the authors' 10,000×512 CIFAR-10 ViT artifacts,
+three additional real datasets, a combinatorial proof checker, fixed-k trap,
+and tie boundary. Do not add route 11. Then independently verify, publish, and
+require an exact-SHA official 4/4 verdict.
