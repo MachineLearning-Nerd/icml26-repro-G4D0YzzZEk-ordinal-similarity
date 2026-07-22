@@ -78,7 +78,7 @@ The released `data/cifar-10-final-epoch-val-representations.npy` has shape
   aggregate (`sigma=1` TSI, `0.97875` versus `0.97876`). The published
   verifier therefore exposes and hashes three-decimal aggregates; both tested
   stacks produce normalized `RESULTS_SHA256`
-  `ef8e10098741d45adb87aab45af65dfa54e8a99d03654ba4ba27f973a8abad21`.
+  `60d05cd92c5940712e4b5c2edc0d98863514d6018b674505b18861c725f83fce`.
 
 The judged baseline remains 9/12 until a new Hugging Face revision is scored.
 Claim 5 remains GPU-bound and outside the authorized compute policy.
