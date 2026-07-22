@@ -1,0 +1,21 @@
+paper: Scalable and Interpretable Representation Alignment with Ordinal Similarity (G4D0YzzZEk)
+source: ar5iv Section 6.2 + Appendix L; official commit 79758ece4b97eeda98439542bbeb7c229f2bc2c9
+official array: shape=(10000, 512) sha256=3ee442b20bab44e4aae5a038b6489df988f4db68fc6dd1e95d630ca278a10b1b
+protocol: final-epoch seed-0 CIFAR-10 ViT; 2%=200 outliers; sigmas=[0, 1, 2, 4, 8, 16, 32, 64, 128]; runs=20; dot-product k=10
+ordinal estimator: samples=500000 per cell; Hoeffding epsilon=0.003809 at delta=1e-6
+exact mean pairwise distance=32.027448
+sigma      TSI      QSI      CKA    CKNNA MutualNN
+    0  1.00000  1.00000  1.00000  1.00000  1.00000
+    1  0.97875  0.96193  0.99833  0.94683  0.94215
+    2  0.97711  0.96166  0.99213  0.85673  0.82083
+    4  0.97497  0.96134  0.95091  0.38578  0.39852
+    8  0.97318  0.96130  0.69227  0.00136  0.00954
+   16  0.97192  0.96110  0.25395  0.00002  0.00302
+   32  0.97131  0.96111  0.07074  0.00007  0.00180
+   64  0.97107  0.96133  0.02186  0.00007  0.00143
+  128  0.97072  0.96111  0.00952  0.00009  0.00110
+clean-subset bounds: TSI=0.941186 QSI=0.922357
+controls: partial-topk==brute=True; fast-CKA max abs error=4.496e-11; sigma0 identity=True
+gates: clean-subset lower bounds=True; TSI/QSI beat CKA+CKNNA+MutualNN=True
+verdict: supports
+RESULTS_SHA256=8a9f87335460f12ef1eda4d83c7acdf4ed84de9a9dab29c05194e6974b30f00b

@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "title": "Repro - Ordinal Similarity Indices",
+  "emoji": "📐",
+  "space_id": "DineshAI/G4D0YzzZEk",
+  "paper": {
+    "arxiv_id": "2606.16379",
+    "openreview_id": "G4D0YzzZEk"
+  },
+  "tags": [
+    "icml2026-repro",
+    "paper-G4D0YzzZEk"
+  ],
+  "updated_at": "2026-07-22T17:17:00+00:00",
+  "root": {
+    "slug": "index",
+    "title": "Repro - Ordinal Similarity Indices",
+    "file": "pages/index.md",
+    "children": [
+      {
+        "slug": "claim-1-ordinal-tsi-and-qsi",
+        "title": "Claim 1 — Ordinal TSI and QSI",
+        "file": "pages/claim-1-ordinal-tsi-and-qsi/page.md",
+        "children": []
+      },
+      {
+        "slug": "claim-2-tsi-and-mutualnn",
+        "title": "Claim 2 — TSI and MutualNN",
+        "file": "pages/claim-2-tsi-and-mutualnn/page.md",
+        "children": []
+      },
+      {
+        "slug": "claim-3-complexity",
+        "title": "Claim — Complexity O(N²log N) & ε-approximation",
+        "file": "pages/claim-3-complexity/page.md",
+        "children": []
+      },
+      {
+        "slug": "claim-4-robustness",
+        "title": "Claim — 2% outlier robustness vs CKA/CKNNA/MutualNN",
+        "file": "pages/claim-4-robustness/page.md",
+        "children": []
+      },
+      {
+        "slug": "claim-5-accuracy-scaling",
+        "title": "Claim — Monotone with accuracy; CKA counter-intuitive",
+        "file": "pages/claim-5-accuracy-scaling/page.md",
+        "children": []
+      },
+      {
+        "slug": "claim-6-independence",
+        "title": "Claim — Independence baseline ~0.5, stable",
+        "file": "pages/claim-6-independence/page.md",
+        "children": []
+      },
+      {
+        "slug": "methods",
+        "title": "Methods",
+        "file": "pages/methods/page.md",
+        "children": []
+      },
+      {
+        "slug": "negative-controls",
+        "title": "Negative controls",
+        "file": "pages/negative-controls/page.md",
+        "children": []
+      },
+      {
+        "slug": "conclusion",
+        "title": "Conclusion",
+        "file": "pages/conclusion/page.md",
+        "children": []
+      },
+      {
+        "slug": "claim-tsi-qsi",
+        "title": "Claims — TSI/QSI baseline, approx, robustness",
+        "file": "pages/claim-tsi-qsi/page.md",
+        "children": []
+      },
+      {
+        "slug": "claim-4-cifar-fullscale",
+        "title": "Claim 4 — Full CIFAR-10 ViT robustness audit",
+        "file": "pages/claim-4-cifar-fullscale/page.md",
+        "children": []
+      }
+    ]
+  },
+  "agent_view_tokens": 3350,
+  "revision": "20260722171700"
+}
